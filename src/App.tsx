@@ -36,7 +36,12 @@
 
 // --------------------------------------------------------------------------------------------------------------
 
-
+// site is live at - react-rx5m.vercel.app
+// Preview Screenshot of react-rx5m.vercel.app
+// Deployment
+// react-rx5m-970qyt120-alokes-projects.vercel.app
+// Domains
+// react-rx5m.vercel.app
 
 
 // rafce
@@ -55,6 +60,7 @@ const App = () => {
     //   App
     // </div>
     <main>
+      <h1>My(Aloke Pramanik) first </h1>
       <h1>TODO REACT+TYPESCRIPT </h1>
       <Navbar></Navbar>
       <AddToDo/>
