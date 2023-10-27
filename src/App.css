@@ -1,0 +1,139 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* my todo app css  ------------------------------------------------------------------------------------- */
+
+:root{
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark ;
+  color:  rgba(255, 255,255,0.87);
+  background-color: rgb(48, 46, 46);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing : antialiased ;
+  -webkit-text-size-adjust: 100%;
+}
+a{
+  font-weight: 500;
+  color: purple;
+  text-decoration: inherit;
+}
+
+.main-task li:first-child{
+  border-top: 1rem solid #ccc;
+}
+.main-task li:hover{
+  background-color: #fef2f2;
+}
+.main-task li input[type='checkbox']:checked + label {
+  text-decoration: line-through;
+  color: rgb(219, 68, 93);
+}
+.main-task li button{
+  padding: .6rem 1rem;
+  width: 7rem;
+  background-color: rgb(179, 46, 68);
+  color: white;
+}
+
+.main-task li button{
+  padding: .6rem 1rem;
+  width: 7rem;
+  background-color: rgb(251, 132, 152);
+  color: white;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  justify-self: center;
+  letter-spacing: .1rem;
+}
+
+.main-task li{
+  display:  grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  width: 50rem;
+  min-height:  6rem;
+  border-bottom: .1rem solid white;
+}
+label{
+  font-size: 1.5rem;
+  letter-spacing: .06rem;
+  color: black;
+  font-weight: bold;
+
+}
+form button{
+  padding: .6rem 2.8rem;
+  border: none;
+  border-radius: .3rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 2.5rem;
+  background-color: lightgreen;
+  color: white;
+}
+form input{
+  border: .1rem solid white ;
+  border-radius: .3rem;
+  width: 45rem;
+  margin: 4rem 0;
+  user-focus: none;
+  padding:  .6rem 1rem;
+  font-size: 1.6rem;
+  letter-spacing: .06rem;
+  font-weight: bold;
+}
+nav a.active{
+  color: #000;
+  border-color: aquamarine;
+}
+nav a:hover{
+  border-color: #000;
+}
+nav a{
+  font-size: 2rem;
+  color: white;
+  border-bottom: .3rem solid transparent;
+}
