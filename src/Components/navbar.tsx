@@ -1,5 +1,5 @@
 // rafce
-import React from 'react'
+// import React from 'react'
 import { Link,useSearchParams } from 'react-router-dom'
 
 const Navbar = () => {
